@@ -5,7 +5,7 @@
 export const environment = {
 
   production: false,
-  _TOKEN_SPOTI_APP: 'Bearer BQBPd3K4nCVs6hAGpG5n8mvvmJUWzQKAI4o8FeMCQ-XO-nqlnncUvUcUtZd1vTnxV3eeprfynD1B0Fe24ro'
+  _TOKEN_SPOTI_APP: 'Bearer BQB34GYMv7xGRb5ju7sv9sf5x7TRocv0qnNmRVWD-w8cTypQ7T8Ub-O169nQ9W0Kc8hPd_3CGjz4DsU42eg'
 };
 
 /*

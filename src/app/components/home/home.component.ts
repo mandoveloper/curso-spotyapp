@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.spotifyService.getNewReleases().subscribe(data => {
       // console.log(data.albums.items);
-      this.albums = data.albums.items;
+      this.albums = data;
       console.log(this.albums);
 
     });
