@@ -3,6 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+
+  _TOKEN_SPOTI_APP: 'Bearer BQBPd3K4nCVs6hAGpG5n8mvvmJUWzQKAI4o8FeMCQ-XO-nqlnncUvUcUtZd1vTnxV3eeprfynD1B0Fe24ro',
   production: false
 };
 

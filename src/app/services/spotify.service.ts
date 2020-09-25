@@ -1,6 +1,7 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ export class SpotifyService {
   getNewReleases(): Observable<any> {
 
     const headers = new HttpHeaders({
-      Authorization: 'Bearer BQAu7XHebG57HyPrdJ410RH9sSTd0U7WBAbKj_jkBX1ZTECfgC6oArcRfhhTKI2DTjoXuPAGFYt1bcxjf_U'
+      Authorization: environment._TOKEN_SPOTI_APP
     });
 
     return this.http.get('https://api.spotify.com/v1/browse/new-releases', {headers});
